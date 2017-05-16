@@ -27,9 +27,12 @@
             "fedemotta\\gridstack\\": ""
         }
     },
-    "extra": {
-        "asset-installer-paths": {
-            "bower-asset-library": "vendor/bower"
-        }
-    }
+	"config": {
+		"fxp-asset": {
+		  "installer-paths": {
+			"bower-asset-library": "vendor/bower"
+		  }
+		},
+		"process-timeout": 1800
+	}
 }
